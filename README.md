@@ -12,7 +12,7 @@ If you don't have docker installed [check this out](https://docs.docker.com/dock
 ## Run
 
 ```
-docker build --tag practicaldocker:latest
+docker build --tag practicaldocker:latest .
 docker run -p 3000:3000 practicaldocker
 ```
 
