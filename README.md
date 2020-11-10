@@ -4,7 +4,7 @@ We have a simple Express app that serves a static JSON.
 
 ## Requirements
 
-Docker Desktop
+- Docker Desktop
 
 If you don't have docker installed [check this out](https://docs.docker.com/docker-for-mac/install/).
 
