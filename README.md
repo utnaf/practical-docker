@@ -14,32 +14,7 @@ Run `npm install` to install Neo4j Driver for JavaScript.
 
 ## Run
 
-First we need to create a network to allow the two container to communicate:
-
-```
-docker network create practical-docker-net
-```
-
-And then we can start our Neo4j container:
-
-```
-docker run -p=7474:7474 -p=7687:7687 \
-  -e NEO4J_AUTH=neo4j/password \
-  --network practical-docker-net \
-  --name pratical_docker_neo4j \
-  neo4j:4.1
-```
-
-Finally, we build and run our image:
-
-```
-docker build --tag practicaldocker:latest .
-docker run -p 3000:3000 --network practical-docker-net practicaldocker
-```
-
-Visit (localhost:3000)[http://localhost:3000].
-
-**Note**: both containers are connected to our initially created network.
+`docker-compose up`
 
 ### Dev
 
