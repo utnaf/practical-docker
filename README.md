@@ -4,15 +4,15 @@ We have a simple Express app that serves a static JSON.
 
 ## Requirements
 
-[nvm](https://nvm.sh) or Node 14.15.0.
+Docker Desktop
 
-If you have nvm installed use the `nvm use` command to set your Node version to 14.15.0.
+If you don't have docker installed [check this out](https://docs.docker.com/docker-for-mac/install/).
 
 ## Run
 
 ```
-npm install
-npm start
+docker build --tag practicaldocker:latest
+docker run -p 3000:3000 practicaldocker
 ```
 
 Visit (localhost:3000)[http://localhost:3000].
