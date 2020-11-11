@@ -32,8 +32,8 @@ docker run -p=7474:7474 -p=7687:7687 \
 Finally, we build and run our image:
 
 ```
-docker build --tag practicaldocker:latest .
-docker run -p 3000:3000 --network practical-docker-net practicaldocker
+docker build --tag practical-docker:latest .
+docker run -p 3000:3000 --network practical-docker-net practical-docker
 ```
 
 Visit http://localhost:3000.
