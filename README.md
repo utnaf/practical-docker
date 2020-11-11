@@ -12,7 +12,7 @@ If you don't have Docker installed [check this out](https://docs.docker.com/dock
 
 Run `npm install` to install Neo4j Driver for JavaScript.
 
-## Run
+## Run
 
 First we need to create a network to allow the two container to communicate:
 
@@ -37,7 +37,7 @@ docker build --tag practicaldocker:latest .
 docker run -p 3000:3000 --network practical-docker-net practicaldocker
 ```
 
-Visit (localhost:3000)[http://localhost:3000].
+Visit http://localhost:3000.
 
 **Note**: both containers are connected to our initially created network.
 
