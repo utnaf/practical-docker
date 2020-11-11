@@ -17,3 +17,11 @@ docker run -p 3000:3000 practical-docker
 ```
 
 Visit http://localhost:3000.
+
+## Dev
+
+For developing you can use the watch command to restart the server automatically when a file changes.
+
+```
+npm run watch
+```
