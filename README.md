@@ -13,7 +13,20 @@ Run `npm install` to install Neo4j Driver for JavaScript.
 
 ## Run
 
-`make up`
+```bash
+# services up
+make up
+
+# services down
+make down
+
+# watch logs
+make logs-app
+make logs-neo4j
+
+# open shell in the container
+make sh
+```
 
 Visit http://localhost:3000.
 
