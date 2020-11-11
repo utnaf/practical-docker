@@ -12,9 +12,11 @@ If you don't have Docker installed [check this out](https://docs.docker.com/dock
 
 Run `npm install` to install Neo4j Driver for JavaScript.
 
-## Run
+## Run
 
 `docker-compose up`
+
+Visit http://localhost:3000
 
 ### Dev
 
