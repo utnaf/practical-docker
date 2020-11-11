@@ -15,7 +15,7 @@ npm install
 npm start
 ```
 
-Visit (localhost:3000)[http://localhost:3000].
+Visit http://localhost:3000.
 
 ### Dev
 
