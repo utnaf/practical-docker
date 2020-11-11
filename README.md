@@ -9,11 +9,11 @@ We have a simple Express app that serves a static JSON.
 
 If you don't have docker installed [check this out](https://docs.docker.com/docker-for-mac/install/).
 
-## Run
+## Run
 
 ```
-docker build --tag practicaldocker:latest .
-docker run -p 3000:3000 practicaldocker
+docker build --tag practical-docker:latest .
+docker run -p 3000:3000 practical-docker
 ```
 
 Visit (localhost:3000)[http://localhost:3000].
