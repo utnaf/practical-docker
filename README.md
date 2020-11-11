@@ -8,7 +8,7 @@ We have a simple Express app that serves a static JSON.
 
 If you have nvm installed use the `nvm use` command to set your Node version to 14.15.0.
 
-## Run
+## Run
 
 ```
 npm install
