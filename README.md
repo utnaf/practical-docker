@@ -1,6 +1,6 @@
 # Practical Docker
 
-We have a simple Express app that serves a static JSON.
+We have a simple Express app that serves a JSON.
 
 ## Requirements
 
