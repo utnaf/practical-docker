@@ -1,20 +1,21 @@
 # Practical Docker
 
-We have a simple Express app that serves a static JSON.
+We have a simple Express app that serves a JSON.
 
 ## Requirements
 
 - NodeJS or [nvm](https://nvm.sh)
-- Docker Desktop
 - Neo4j Driver for JavaScript (`npm i neo4j-driver`)
 
 If you don't have Docker installed [check this out](https://docs.docker.com/docker-for-mac/install/).
 
 Run `npm install` to install Neo4j Driver for JavaScript.
 
-## Run
+## Run
 
 `make up`
+
+Visit http://localhost:3000.
 
 ### Push Image to DockerHub
 
@@ -32,7 +33,7 @@ For developing you can use the `watch` command to restart the server automatica
 npm run watch
 ```
 
-## Deploy
+## Deploy
 
 This image is deployed to my local Ubuntu Server machine. Create your own server and ajust the data in the Makefile accordingly.
 
