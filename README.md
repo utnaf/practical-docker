@@ -16,4 +16,4 @@ docker build --tag practical-docker:latest .
 docker run -p 3000:3000 practical-docker
 ```
 
-Visit (localhost:3000)[http://localhost:3000].
+Visit http://localhost:3000.
